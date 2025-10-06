@@ -2,41 +2,13 @@ import PropTypes from "prop-types";
 import styles from "./Projects.module.css";
 import HorizontalScrollCarousel from "../components/HorizontalScrollCorouselComponent";
 const cards = [
-  {
-    url: "residential-img-3",
-    title: "Title 1",
-    id: 1,
-  },
-  {
-    url: "residential-img-2",
-    title: "Title 2",
-    id: 2,
-  },
-  {
-    url: "residential-img-1",
-    title: "Title 3",
-    id: 3,
-  },
-  {
-    url: "commercial-img-1",
-    title: "Title 3",
-    id: 4,
-  },
-  {
-    url: "renovations-img-1",
-    title: "Title 3",
-    id: 5,
-  },
-  {
-    url: "commercial-img-3",
-    title: "Title 3",
-    id: 6,
-  },
-  {
-    url: "commercial-img-2",
-    title: "Title 3",
-    id: 7,
-  },
+  { url: "/residential-img-1.jpg", title: "Residential 1", id: 1 },
+  { url: "/residential-img-2.jpg", title: "Residential 2", id: 2 },
+  { url: "/residential-img-3.jpg", title: "Residential 3", id: 3 },
+  { url: "/commercial-img-1.jpg", title: "Commercial 1", id: 4 },
+  { url: "/renovations-img-1.jpg", title: "Renovation 1", id: 5 },
+  { url: "/commercial-img-3.jpg", title: "Commercial 3", id: 6 },
+  { url: "/commercial-img-2.jpg", title: "Commercial 2", id: 7 },
 ];
 
 const Projects = ({ className = "" }) => {
